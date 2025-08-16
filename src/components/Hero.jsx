@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Telescope, Star, Sparkles, ArrowDown, ChevronRight } from 'lucide-react'
+import { Eye, Star, Sparkles, ArrowDown, ChevronRight } from 'lucide-react'
 
 export default function Hero() {
   const scrollToSection = (sectionId) => {
@@ -100,7 +100,7 @@ export default function Hero() {
                 onClick={() => scrollToSection('services')}
                 className="btn-primary flex items-center justify-center space-x-2 text-lg"
               >
-                <Telescope className="h-5 w-5" />
+                <Eye className="h-5 w-5" />
                 <span>Ver Telescópios</span>
                 <ChevronRight className="h-5 w-5" />
               </motion.button>
@@ -155,7 +155,7 @@ export default function Hero() {
                 className="text-center space-y-6"
               >
                 <div className="mx-auto w-32 h-32 bg-gradient-to-br from-primary-400 to-accent-500 rounded-full flex items-center justify-center">
-                  <Telescope className="h-16 w-16 text-white" />
+                  <Eye className="h-16 w-16 text-white" />
                 </div>
                 
                 <div className="space-y-2">
