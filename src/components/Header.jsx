@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, Telescope, Star } from 'lucide-react'
+import { Menu, X, Eye, Star } from 'lucide-react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -52,7 +52,7 @@ export default function Header() {
             onClick={() => scrollToSection('hero')}
           >
             <div className="relative">
-              <Telescope 
+              <Eye 
                 className={`h-8 w-8 transition-colors duration-300 ${
                   isScrolled ? 'text-primary-600' : 'text-white'
                 }`} 
